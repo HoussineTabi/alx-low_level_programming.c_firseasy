@@ -2,7 +2,7 @@
 /*
  * the main start the programme
  *
- * This main prgramme is going to print a string one screen
+ * Descriptin :  main prgramme is going to print a string one screen
  *
  * Return 0 Always
  */
