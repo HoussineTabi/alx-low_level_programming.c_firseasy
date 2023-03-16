@@ -2,9 +2,8 @@
 /*
  * main : starting the programme
  * retun 0 always
- * this main function is going to print a string in the standart output using puts
  */
-int main(void)
+int main(void) /*this function main is going to print a string in the standard output*/
 {
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
