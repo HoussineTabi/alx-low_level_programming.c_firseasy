@@ -1,6 +1,6 @@
 #include<stdio.h>
 /*Description : this programme disply the size of various types*/
-int main(void)
+int main(void)/*A description found for function main*/
 {
 printf("Size of a char: %zu byte(s)\n", sizeof(char));
 printf("Size of an int: %zu byte(s)\n", sizeof(int));
