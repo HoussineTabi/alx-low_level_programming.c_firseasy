@@ -1,6 +1,4 @@
-julien@ubuntu:~/c/0x00$ cat main.c 
-#include <stdio.h>
-
+#include<stdio.h>
 /**
  * main - Entry point
  *
