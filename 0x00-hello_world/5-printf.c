@@ -6,7 +6,7 @@
  *
  * Return 0 Always
  */
-int main(void)/* Description: print string on the string*/
+/* Description: print string on the string*/int main(void)
 {
 printf("with proper grammar, but the outcome is a piece of art,\n");
 return (0);
