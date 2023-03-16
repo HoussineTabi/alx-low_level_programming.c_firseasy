@@ -1,6 +1,6 @@
 #include<stdio.h>
 /*
- * main: starting the programme 
+ * main:starting the programme 
  * retun 0 always
  */
 int main(void)
