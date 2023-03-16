@@ -2,7 +2,7 @@
 /*
  * main : starting the programme
  * retun 0 always
- * function main() disply the programe
+ * this main function is going to print a string in the standart output using puts
  */
 int main(void)
 {
