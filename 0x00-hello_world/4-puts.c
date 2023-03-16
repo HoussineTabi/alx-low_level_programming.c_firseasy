@@ -1,7 +1,7 @@
 #include<stdio.h>
 /*
  * main : starting the programme
- * Description : this programme is print messahe on screen
+ * Description : puts "Programming is like building a multilingual puzzle"
  * retun : 0 always
  */
 int main(void)

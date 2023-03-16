@@ -2,7 +2,7 @@
 /*
  * the main start the programme
  *
- * Descriptin :  main prgramme is going to print a string one screen
+ * Descriptin :  printf("with proper grammar, but the outcome is a piece of art,\n")
  *
  * Return 0 Always
  */
