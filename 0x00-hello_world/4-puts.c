@@ -1,7 +1,8 @@
 #include<stdio.h>
 /*
- * main:starting the programme 
+ * main : starting the programme
  * retun 0 always
+ * function main() disply the programe
  */
 int main(void)
 {
