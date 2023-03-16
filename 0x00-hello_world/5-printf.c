@@ -1,11 +1,11 @@
 #include<stdio.h>
-/*
- * the main start the programme
- * Descriptin:  print string
- * Return 0 Always
+
+/**
+ *  main - Is start the programme
+ * Return: 0 Always
  */
-/*Description this main print string*/
-int main(void)/*starting prgramme*/
+
+int main(void)
 {
 printf("with proper grammar, but the outcome is a piece of art,\n");
 return (0);
