@@ -13,10 +13,13 @@ int main(void)
 		j = 0;
 		while (j <= 9)
 		{
-			k = i;
+			k = 0;
 			while (k <= 9)
 			{
-				l = j + 1;
+				if (k == 0)
+					l = 1;
+				else
+					l = 0;
 				while (l <= 9)
 				{
 					putchar(i + '0');
