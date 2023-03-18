@@ -10,17 +10,15 @@ int main(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		j = 0;
-		while (j <= 9)
+		for (j = 0; j <= 9; j++)
 		{
-			k = 0;
-			while (k <= 9)
+			for (k = 0; k <= 9; k++)
 			{
 				if (k == 0)
 					l = 1;
 				else
 					l = 0;
-				while (l <= 9)
+				for (; l <= 9; l++)
 				{
 					putchar(i + '0');
 					putchar(j + '0');
@@ -31,6 +29,8 @@ int main(void)
 					{
 						putchar(',');
 					}
+					else
+						break;
 					putchar(' ');
 					line++;
 					if (line == 9)
@@ -38,11 +38,8 @@ int main(void)
 						putchar('\n');
 						line = 0;
 					}
-					l++;
 				}
-				k++;
 			}
-			j++;
 		}
 	}
 	return (0);
