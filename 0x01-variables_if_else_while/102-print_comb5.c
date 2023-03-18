@@ -34,11 +34,11 @@ int main(void)
 					l++;
 				}
 				k++;
+				putchar('\n');
 			}
 			j++;
 		}
 		putchar(' ');
 	}
-	putchar('\n');
 	return (0);
 }
