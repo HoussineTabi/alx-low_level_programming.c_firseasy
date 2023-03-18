@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int i, j, k, l, line = 0;
+	int i, j, k, l = 1, line = 0;
 
 	for (i = 0; i <= 9; i++)
 	{
@@ -14,7 +14,7 @@ int main(void)
 		{
 			for (k = i; k <= 9; k++)
 			{
-				for (l = j + 1; l <= 9; l++)
+				for ( ; l <= 9; l++)
 				{
 					putchar(i + '0');
 					putchar(j + '0');
@@ -35,7 +35,9 @@ int main(void)
 						line = 0;
 					}
 				}
+				l = 0;
 			}
+			l = j + 2;
 		}
 	}
 	return (0);
