@@ -32,13 +32,13 @@ int main(void)
 						putchar(',');
 					}
 					l++;
+					putchar(' ');
 				}
 				k++;
 				putchar('\n');
 			}
 			j++;
 		}
-		putchar(' ');
 	}
 	return (0);
 }
