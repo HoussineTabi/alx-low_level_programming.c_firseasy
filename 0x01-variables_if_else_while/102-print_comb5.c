@@ -8,11 +8,12 @@ int main(void)
 {
 	int i, j, k, l = 1, line = 0;
 
-	for (i = 0; i <= 9; i++)
+	for (i = 0; i <= 9;)
 	{
+		k = i;
 		for (j = 0; j <= 9; j++)
 		{
-			for (k = i; k <= 9; k++)
+			for ( ; k <= 9; k++)
 			{
 				for ( ; l <= 9; l++)
 				{
@@ -38,7 +39,9 @@ int main(void)
 				l = 0;
 			}
 			l = j + 2;
+			k = 0;
 		}
+		i++;
 	}
 	return (0);
 }
