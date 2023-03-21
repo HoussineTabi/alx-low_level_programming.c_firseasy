@@ -1,5 +1,12 @@
 #include "main.h"
-void print_alphabet(void);
+/**
+ * main - the principal function
+ *
+ * Return: the end execution
+ */
+int main(void)
+{
+	void print_alphabet(void);
 /**
  * print_alphabet -  printing lower alphabet starting from a to z
  */
@@ -17,8 +24,6 @@ void print_alphabet(void);
  * Return: The value that return when the execution is end
  */
 
-int main(void)
-{
 	print_alphabet();
 	return (0);
 }
