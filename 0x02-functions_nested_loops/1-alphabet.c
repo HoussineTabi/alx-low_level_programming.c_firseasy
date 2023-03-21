@@ -4,21 +4,23 @@
  *
  * Return: the end execution
  */
+
+void print_alphabet(void);
+
 int main(void)
 {
-	 void print_alphabet(void);
+	print_alphabet();
+	return (0);
+}
 
 /**
  * print_alphabet -  printing lower alphabet starting from a to z
  */
-       	void print_alphabet(void)
-	{
-		char c;
+void print_alphabet(void)
+{
+	char c;
 
-		for (c = 'a'; c <= 'z'; c++)
-			putchar(c);
-		putchar('\n');
-	}
-	print_alphabet();
-	return (0);
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
+	putchar('\n');
 }
