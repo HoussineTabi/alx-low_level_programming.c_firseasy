@@ -4,7 +4,7 @@
  * print_alphabet -  printing lower alphabet starting from a to z
  */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	int c, l;
 
