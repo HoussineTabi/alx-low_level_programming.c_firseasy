@@ -15,6 +15,7 @@ int main(void)
 
 	while (i < 10)
 	{
+		/* putchar(); no need to this statment */
 		i++;
 	}
 
