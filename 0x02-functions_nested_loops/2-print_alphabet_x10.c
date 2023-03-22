@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet -  printing lower alphabet starting from a to z
+ * print_alphabet_x10 -  printing lower alphabet starting from a to z ten times
  */
 
 void print_alphabet_x10(void)
