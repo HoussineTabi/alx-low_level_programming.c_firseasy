@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * pirnt_line - this function print line stright
+ * print_line - this function print line stright
  * @n: parameter integer
  */
 
