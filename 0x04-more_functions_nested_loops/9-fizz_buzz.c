@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * fizz_buzz - this function print numbers from 1 to 100 and if is the number
+ * main - this function print numbers from 1 to 100 and if is the number
  * multiple of 3 or 5 or both
+ * Return: 0 (Success)
  */
-void fizz_buzz(void)
+int main(void)
 {
 	int i;
 
@@ -19,4 +20,5 @@ void fizz_buzz(void)
 		else
 			printf("%d ", i);
 	}
+	return (0);
 }
