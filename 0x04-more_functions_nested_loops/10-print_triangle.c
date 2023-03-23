@@ -1,14 +1,16 @@
 #include "main.h"
 
 /**
+ * print_triangle - print a trianle on screen
  *
- *
+ * @size: is an integer parameter
  */
 void print_triangle(int size)
 {
 	int i, j;
+
 	if (size <= 0)
-		putchar('\n');
+		_putchar('\n');
 	else
 	{
 		for (i = 1; i <= size; i++)
@@ -17,7 +19,7 @@ void print_triangle(int size)
 			{
 				if (j >= (size - i))
 					_putchar('#');
-				else 
+				else
 					_putchar(' ');
 			}
 		}
