@@ -4,15 +4,15 @@
  * print_sign - check the sign of an int
  * @n: parameter of type int
  * Return: 1 and print + if the number is positive
- * Return: 0 and print 0 if the number is 0
- * Return: -1 and print - if the number is negative
+ * 0 and print 0 if the number is 0
+ * -1 and print - if the number is negative
  */
 
 int print_sign(int n)
 {
 	if (n < 0)
 	{
-		_putchar('-');
+		_putchar(45 + '0');
 		return (-1);
 	}
 	else if (n == 0)
@@ -22,7 +22,7 @@ int print_sign(int n)
 	}
 	else
 	{
-		putchar('+');
+		putchar(43 + '0');
 		return (1);
 	}
 }

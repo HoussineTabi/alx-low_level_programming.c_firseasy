@@ -5,7 +5,7 @@
 *
 *Return:Always0.
 */
-intmain(void)
+int main(void)
 {
 	int r;
 
@@ -41,7 +41,7 @@ intmain(void)
 
 	_putchar(',');
 
-	_putchar('');
+	_putchar(' ');
 
 	_putchar(r + '0');
 
