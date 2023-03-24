@@ -15,11 +15,10 @@ int main(void)
 		if ((n % i) == 0)
 		{
 			n = n / i;
-			printf("%d ", i);
+			printf("%d\n ", i);
 		}
 		else
 			i++;
 	}
-	printf("\n");
 	return (0);
 }
