@@ -12,7 +12,7 @@ int main(void)
 
 	while (i <= n)
 	{
-		if ( n % i == 0)
+		if ((n % i) == 0)
 		{
 			n = n / i;
 			printf("%d ", i);
