@@ -15,7 +15,8 @@ int main(void)
 	for (i = 3; i <= 98; i++)
 	{
 		a = f + b;
-		printf("%ld", a);
+		printf("%lu", a);
+
 		if (i != 98)
 			printf(", ");
 		f = b;
