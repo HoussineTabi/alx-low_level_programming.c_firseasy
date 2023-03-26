@@ -6,7 +6,8 @@
  */
 int main(void)
 {
-	int i, f = 1, b = 2, a;
+	int i;
+	long int f = 1, b = 2, a;
 
 	printf("1, ");
 	printf("2, ");
@@ -14,7 +15,9 @@ int main(void)
 	for (i = 3; i <= 50; i++)
 	{
 		a = f + b;
-		printf("%d, ", a);
+		printf("%ld", a);
+		if (i != 50)
+			printf(", ");
 		f = b;
 		b = a;
 	}
