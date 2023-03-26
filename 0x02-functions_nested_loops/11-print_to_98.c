@@ -3,7 +3,7 @@
 /**
  * print_to_98 - this function print numbers from the enter number to 98
  *
- * @a: ineger parameter
+ * @n: ineger parameter
  */
 
 void print_to_98(int n)
