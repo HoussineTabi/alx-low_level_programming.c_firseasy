@@ -1,11 +1,8 @@
 #include "main.h"
-
 /**
  * print_times_table - this fucntion print the times table forom 0 to 15
- *
  * @n: an integer parameter
  */
-
 void print_times_table(int n)
 {
 	int i, j, a;
@@ -39,9 +36,9 @@ void print_times_table(int n)
 					if (j != 0)
 					{
 						_putchar(' ');
-						_puthcar(' ');
+						_putchar(' ');
 					}
-					puthcar(a + '0');
+					_putchar(a + '0');
 					if (j != n)
 						_putchar(',');
 				}
