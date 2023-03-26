@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <ctype.h>
 
+void jack_bauer(void);
 int print_sign(int n);
 int _isalpha(int c);
 int _putchar(char c);
