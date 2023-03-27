@@ -1,4 +1,4 @@
-#include "mian.h"
+#include "main.h"
 
 /**
  * _puts - this function print a string in the output
