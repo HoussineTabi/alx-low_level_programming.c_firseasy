@@ -7,7 +7,8 @@
 int main(void)
 {
 	int i;
-	unsigned int f = 1, b = 2, a;
+	long double f = 1, b = 2, a;
+
 
 	printf("1, ");
 	printf("2, ");
@@ -15,7 +16,7 @@ int main(void)
 	for (i = 3; i <= 98; i++)
 	{
 		a = f + b;
-		printf("%u", a);
+		printf("%Lf", a);
 
 		if (i != 98)
 			printf(", ");
